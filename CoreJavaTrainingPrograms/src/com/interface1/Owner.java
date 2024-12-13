@@ -1,4 +1,4 @@
-package com.interfaces;
+package com.interface1;
 
 public interface Owner {
     

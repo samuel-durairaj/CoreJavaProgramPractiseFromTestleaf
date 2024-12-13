@@ -1,4 +1,4 @@
-package com.interfaces;
+package com.interface1;
 
 //Class can implement n number of interfaces
 public abstract class Animal implements Travel, Owner{
