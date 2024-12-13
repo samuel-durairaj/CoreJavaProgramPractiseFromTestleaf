@@ -1,29 +1,29 @@
-package core.java8;
+package com.interfaces;
 
 //Class can implement n number of interfaces
-public abstract class Animal implements Travel, Owner{
+public abstract class Vehicle implements Travel,Owner{
 
 }
 
-class Cat extends Animal{
+class Truck extends Vehicle{
 	public int getSpeed() {
-		return 40;
+		return 80;
 	}
 	public String getOwnerName() {
 		return "Sam1";
 	}
 }
-class Dog extends Animal{
+class Bus extends Vehicle{
 	public int getSpeed() {
-		return 50;
+		return 60;
 	}
 	public String getOwnerName() {
 		return "Sam2";
 	}
 }
-class Tiger extends Animal{
+class Cycle extends Vehicle{
 	public int getSpeed() {
-		return 100;
+		return 10;
 	}
 	public String getOwnerName() {
 		return "Sam3";

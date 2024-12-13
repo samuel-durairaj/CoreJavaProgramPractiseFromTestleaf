@@ -2,6 +2,15 @@ package core.java8;
 
 public class CoreJavaBasics {
 	
+	/*
+	 * Explanation for the Java main method 'public static void main(String args[])'
+	 * public - Entry point of this method should be public for the JVM to find this method
+	 * static - Method can be accessed without any object reference, so declared as static
+	 * void  - Does not have value to return
+	 * main  - mandatory name, for Java to identify
+	 * (String[] args or arg or any_name) - Java will supply all the command line arguments as String array (mandatory)
+	 */
+	
 	static void dataTypeProgs() {
 		//Type Promotion
 				byte a =10;

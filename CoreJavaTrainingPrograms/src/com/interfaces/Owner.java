@@ -1,4 +1,4 @@
-package core.java8;
+package com.interfaces;
 
 public interface Owner {
     

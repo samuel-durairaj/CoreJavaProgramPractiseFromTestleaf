@@ -1,8 +1,10 @@
-package core.java8;
+package com.abstraction;
 
 /*
  * - Abstract classes will have 0 or 1 abstract methods
  * - We cannot create an object for abstract class
+ * - Abstract classes are also part of inheritance
+ * - Partially implemented classes
  * - Create sub-class to abstract class and in the sub class we need to implement 
  *   all the abstract methods which is there in super class failure
  *   - Sub class will also be abstract
@@ -28,15 +30,7 @@ public abstract class CarAbstract {
 		
 	}
 	public static void main(String[] args) {
-		SubCarAbstract abs = new SubCarAbstract();
+		CarSubAbstract abs = new CarSubAbstract();
 		abs.brake();
-	}
-}
-
-class SubCarAbstract extends CarAbstract{
-
-	@Override
-	public void brake() {
-	System.out.println("SubCar Abs brake is called");
 	}
 }
