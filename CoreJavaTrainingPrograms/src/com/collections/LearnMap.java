@@ -1,4 +1,4 @@
-package week3.day2;
+package com.collections;
 
 import java.util.*;
 import java.util.Map.Entry;

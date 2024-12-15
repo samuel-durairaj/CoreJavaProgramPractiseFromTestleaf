@@ -1,4 +1,4 @@
-package week3.day2;
+package com.collections;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

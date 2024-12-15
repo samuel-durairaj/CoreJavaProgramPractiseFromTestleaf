@@ -1,7 +1,8 @@
-package week3.day2;
+package com.collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class LearnList {
@@ -33,6 +34,7 @@ public class LearnList {
 		
 		System.out.println(list.contains(24));
 		
+		//3 Methods to remove elements from the list: (remove() and clear() methods, using Iterator)
 		list.remove(0);
 		System.out.println(list);
 		
@@ -41,7 +43,27 @@ public class LearnList {
 		
 		list.clear();
 		System.out.println(list);
+		
+		List<String> list1 = new ArrayList<>(); 
+		list1.add("banana");
+		list1.add("orange");
+		list1.add("apple");
+		list1.add("banana");
+		System.out.println(list1);
+		
+		list1.remove("apple");
+		System.out.println(list1);
+		
+		//Remove list using an Iterator
+		Iterator<String> iterator = list1.iterator();
+		while(iterator.hasNext()) {
+			String fruit = iterator.next();
+			if(fruit.equals("banana")) {
+				iterator.remove();
+			}
+		}
 
+		System.out.println(list1);
 	}
 
 }
