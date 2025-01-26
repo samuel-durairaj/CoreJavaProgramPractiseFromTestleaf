@@ -6,6 +6,7 @@ public class LearnBufferBuilder {
 		
 		String str = "Testleaf";
 		System.out.println(str);
+		System.out.println(str.isEmpty());//Find whether the String is Empty or not
 		System.out.println(str.hashCode());//'hashcode()' to find the memory location
 		
 		System.out.println("****************************");

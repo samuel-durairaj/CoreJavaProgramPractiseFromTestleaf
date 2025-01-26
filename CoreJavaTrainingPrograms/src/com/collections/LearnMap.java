@@ -13,6 +13,8 @@ public class LearnMap {
 		map.put("OnePlus", 45000);
 		map.put("Samsung", 25000);
 		map.put("iPhone", 75000);
+		map.put("iPhone", 85000);
+		map.put("iPhone", 95000);//Duplicate key, so the last value will be overridden
 		
 		System.out.println(map);
 		System.out.println(map.get("Samsung"));//Retrieving data using the 'Key'

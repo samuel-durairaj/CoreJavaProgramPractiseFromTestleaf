@@ -6,8 +6,8 @@ public class LearnSet {
 public static void main(String[] args) {
 	
 	/*HashSet - will give a random output
-	  TreeSet - will give the output in ASCII order
-	  LinkedHashSet - will maintain insertion order*/
+	  LinkedHashSet - will maintain insertion order
+	  TreeSet - will give the output in ASCII order*/
 	
 	/* Set - will not allow duplicate value, ignores the duplicate
 	   Set interface does not have a 'get()' function

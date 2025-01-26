@@ -2,6 +2,7 @@ package week2.day1;
 
 public class ParentClass {
 
+	static int a =10;
    void getHouse(){
 		System.out.println("My House - Parent");
 	}
